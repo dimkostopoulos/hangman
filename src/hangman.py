@@ -35,7 +35,7 @@ while len(word_letters) > 0 and lives > 0:
 
 # Game over
 if lives == 0:
-	print(f'\nYou died bitch! The word was: {word}')
+	print(f'\nYou died bitch! The word was: {word} Try to get good before you lose again.')
 else:
-	print(f'\nCongratulations! You guessed the word: {word}')
+	print(f'\nCongratulations! You guessed the word: {word} You are such a great player i am so proud of you :).')
 
