@@ -1,4 +1,5 @@
 # hangman
 deepseeker hangman used for IEK purposes
 
-Geiaaaa
+ολα καλα?
+
