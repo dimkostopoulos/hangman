@@ -7,7 +7,7 @@ word = random.choice(words).lower()
 word_letters = set(word)
 alphabet = set('abcdefghijklmnopqrstuvwxyz')
 used_letters = set()
-lives = 6
+lives = 9
 
 # Game loop
 while len(word_letters) > 0 and lives > 0:
