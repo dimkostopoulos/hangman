@@ -38,4 +38,13 @@ if lives == 0:
 	print(f'\nYou died bitch! The word was: {word} Try to get good before you lose again.')
 else:
 	print(f'\nCongratulations! You guessed the word: {word} You are such a great player i am so proud of you :).')
-
+print('want to play again? (yes/no)')
+play_again = input().lower()
+if play_again == 'yes':
+	# Reset game variables
+	word = random.choice(words).lower()
+	word_letters = set(word)
+	used_letters = set()
+	lives = 9
+else:
+	print('Thanks for playing!')
