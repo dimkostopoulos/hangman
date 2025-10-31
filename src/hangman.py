@@ -2,7 +2,7 @@ import random
 
 #TODO Add greek
 
-words = ['python', 'java', 'hangman', 'computer', 'keyboard', 'programming', 'panileiakos']
+words = ['paspyrgoy', 'python', 'java', 'hangman', 'computer', 'keyboard', 'programming', 'panileiakos']
 word = random.choice(words).lower()
 word_letters = set(word)
 alphabet = set('abcdefghijklmnopqrstuvwxyz')
